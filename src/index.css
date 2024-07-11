@@ -7,5 +7,11 @@
 }
 
 input {
-    color-scheme:dark;
+    color-scheme: dark;
+}
+
+[data-theme="dark"] .rdp,
+.dark .rdp {
+  --rdp-accent-color: #BEF264;
+  --rdp-background-color: #BEF264;
 }
